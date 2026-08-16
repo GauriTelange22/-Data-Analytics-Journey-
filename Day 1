@@ -1,1 +1,285 @@
+ 📊 Day 1 – Data Analyst Learning Journey
+
+#Introduction
+
+Today marks **Day 1 of my Data Analyst Learning Journey**.
+
+The first step in becoming a Data Analyst is understanding the fundamentals of data, how data is organized, the different roles in the data industry, and how Data Analysts contribute to different business domains.
+
+In this session, I learned about:
+
+* What is Data?
+* Data Hierarchy
+* Four Core Data Roles
+* Role of a Data Analyst
+* Role of a Data Engineer
+* Role of a Data Scientist
+* Role of an AI/ML Engineer
+* Outliers
+* Data Analyst in Different Domains
+* Key responsibilities and skills associated with data-related roles
+
+---
+
+# 1. What is Data?
+
+Data is a collection of facts, values, observations, or information that can be collected, stored, and analyzed.
+
+Data can exist in many different forms, such as:
+
+* Numbers
+* Text
+* Images
+* Audio
+* Video
+* Measurements
+* Observations
+* Business transactions
+
+### Examples of Data
+
+Some simple examples are:
+
+* Student marks
+* Customer names
+* Product prices
+* Weather temperature
+* Sales transactions
+* Customer reviews
+
+For example, if a student receives the marks:
+
+`75, 82, 68, 91, 78`
+
+these individual values are data.
+
+However, raw data by itself may not provide much meaning. When data is processed, organized, and analyzed, it can become useful information that supports decision-making.
+
+### Data → Information → Insights → Decisions
+
+A Data Analyst helps transform raw data into meaningful insights that can be used by businesses and organizations.
+
+---
+
+# 2. Data Hierarchy
+
+Data is organized into different levels, from the smallest unit of data to larger collections of data.
+
+The basic hierarchy covered today is:
+
+**Bit → Byte → Field → Record → Table/File → Database**
+
+### Bit
+
+A **bit** is the smallest unit of digital data.
+
+It can have one of two values:
+
+`0` or `1`
+
+### Byte
+
+A **byte** consists of **8 bits**.
+
+Bytes are commonly used to represent data such as characters and are also used when measuring digital storage.
+
+### Field
+
+A **field** represents a single piece of information.
+
+For example:
+
+```text
+Name: Swati
+Age: 21
+City: Pune
+```
+
+Here, `Name`, `Age`, and `City` are fields.
+
+### Record
+
+A **record** is a collection of related fields.
+
+For example:
+
+```text
+Name: Swati
+Age: 21
+City: Pune
+```
+
+Together, these fields represent one record about a person.
+
+### Table / File
+
+A **table** contains multiple related records organized into rows and columns.
+
+For example:
+
+| Name  | Age | City   |
+| ----- | --: | ------ |
+| Swati |  21 | Pune   |
+| Rahul |  22 | Mumbai |
+| Priya |  20 | Nashik |
+
+### Database
+
+A **database** is an organized collection of data that can contain multiple tables.
+
+For example, a company's database may contain:
+
+* Customer table
+* Product table
+* Sales table
+* Employee table
+* Order table
+
+Understanding this hierarchy is important because Data Analysts frequently work with structured data stored in tables and databases.
+
+---
+
+# 3. Four Core Data Roles
+
+The data industry contains several different roles. Four important roles I learned about today are:
+
+1. Data Analyst
+2. Data Engineer
+3. Data Scientist
+4. AI/ML Engineer
+
+Although these roles work with data, their responsibilities are different.
+
+---
+
+# 4. Data Analyst
+
+A **Data Analyst** collects, cleans, analyzes, and visualizes data to generate meaningful insights.
+
+The main purpose of a Data Analyst is to help businesses understand what is happening in their data and make better decisions.
+
+### Common Responsibilities
+
+A Data Analyst may:
+
+* Collect data
+* Clean and prepare data
+* Analyze datasets
+* Identify trends and patterns
+* Create reports
+* Build dashboards
+* Visualize data
+* Communicate insights to stakeholders
+* Support business decision-making
+
+### Common Data Analyst Tools
+
+Some commonly used tools and technologies include:
+
+* **Excel**
+* **SQL**
+* **Python**
+* **Power BI**
+* **Tableau**
+
+A Data Analyst acts as a bridge between raw data and business decisions.
+
+---
+
+# 5. Data Engineer
+
+A **Data Engineer** focuses on building and maintaining the systems and pipelines that collect, process, store, and deliver data.
+
+Their work ensures that reliable and organized data is available for Data Analysts and Data Scientists.
+
+### Common Responsibilities
+
+A Data Engineer may:
+
+* Build data pipelines
+* Collect data from different sources
+* Store and manage large datasets
+* Transform data
+* Maintain data infrastructure
+* Ensure data quality and availability
+
+### Common Technologies
+
+Some technologies commonly associated with Data Engineering include:
+
+* SQL
+* Python
+* Hadoop
+* Apache Spark
+* Cloud Platforms
+
+### Simple Difference
+
+**Data Engineer → Makes data available**
+
+**Data Analyst → Analyzes the data**
+
+---
+
+# 6. Data Scientist
+
+A **Data Scientist** uses statistics, programming, data analysis, and machine learning techniques to discover patterns and make predictions.
+
+While a Data Analyst often focuses on understanding existing data and business performance, a Data Scientist may use historical data to build predictive models.
+
+### Examples
+
+Data Science can be used for:
+
+* Predicting house prices
+* Predicting customer churn
+* Fraud detection
+* Recommendation systems
+* Forecasting future trends
+
+### Common Skills
+
+A Data Scientist commonly works with:
+
+* Python
+* Statistics
+* Machine Learning
+* Data Analysis
+* Data Visualization
+
+---
+
+# 7. AI/ML Engineer
+
+An **AI/ML Engineer** develops and deploys intelligent systems using Artificial Intelligence and Machine Learning.
+
+Their work focuses on building systems that can learn from data and perform tasks that normally require human intelligence.
+
+### Examples of AI/ML Applications
+
+* Chatbots
+* Face recognition
+* Recommendation systems
+* Self-driving cars
+* Intelligent search systems
+* Automated decision-making systems
+
+### Simple Difference
+
+**Data Scientist → Develops analytical and predictive models**
+
+**AI/ML Engineer → Builds, integrates, and deploys intelligent systems**
+
+---
+
+# 8. Data Analyst vs Data Engineer vs Data Scientist vs AI/ML Engineer
+
+| Role               | Main Focus                                     |
+| ------------------ | ---------------------------------------------- |
+| **Data Analyst**   | Analyze data and generate business insights    |
+| **Data Engineer**  | Build pipelines and manage data infrastructure |
+| **Data Scientist** | Find patterns and build predictive models      |
+| **AI/ML Engineer** | Build and deploy AI/ML-powered applications    |
+
+These roles often work together as part of the larger data ecosystem.
 
